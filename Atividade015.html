@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Alugueis de Carro</title>
+
+    <style>
+        /* Estilização geral do corpo da página */
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: #dadada; /* Cor de fundo */
+            font-family: Arial, Helvetica, sans-serif; /* Fonte padrão */
+        }
+
+        /* Estilização do cabeçalho */
+        header {
+            background-color: #b6def8; 
+            padding: -200px;
+            box-shadow: 9px 9px 9px rgba(0, 0, 0, 0.4);
+            margin-bottom: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #000000;
+            margin: 0;
+            border-radius: 20px;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);             
+        }
+
+        /* Estilização da tabela dentro do cabeçalho */
+        header table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        /* Estilização das imagens dentro da tabela do cabeçalho */
+        header table img {
+            width: 300px; /* Largura da imagem */
+            height: auto; /* Altura automática para manter a proporção */
+            
+        }
+
+        /* Estilização geral das tabelas, sem bordas */
+        table {
+            width: 100%; /* Tabela ocupa a largura total */
+            border-collapse: collapse; /* Remove espaços entre bordas */
+            font-size: 24px;
+            text-align: center;
+        }
+
+
+        th {
+            font-size: 28px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        main section table tbody td img:hover{
+            cursor: pointer;
+            transition: 2s;
+            transform: scale(1.1);
+        }
+
+
+        .footer-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: center;
+            color: #fff;
+        }
+
+        .footer-table th, .footer-table td {
+            padding: 10px;
+            border: 1px solid #444; 
+        }
+
+        .footer-table th {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        .footer-table td {
+            background-color: #444;
+        }
+
+        .footer-table a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .footer-table a:hover {
+            text-decoration: underline;
+        }
+
+            
+        .tabela-servicos {
+            width: 90%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+
+        main section  h2{
+            font-size: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        
+        } 
+
+        .clean-h2{
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+        }
+
+
+        /* Estilização das células da tabela na seção principal, com bordas */
+       
+        .clean{
+            background-color: #dddddd;
+            padding: 20px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+            margin-bottom: 70px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            color: #333;
+            border-radius: 20px;
+            margin: 50px;
+            margin-top: 5%;
+        }
+
+        main section table tr:nth-child(odd)  {
+            background-color: rgb(233, 233, 233);
+        }
+
+        main section table tr:nth-child(even){
+            background-color: #b6def8;
+        }
+
+        img {
+            width: 200px;    
+            height: auto;
+        }   
+
+        /* Estilização dos cabeçalhos da tabela na seção principal */
+        th {
+            background-color: #f4f4f4; /* Cor de fundo dos cabeçalhos */
+            
+        }
+
+        /* Adiciona bordas apenas à tabela na seção principal */
+        main table {
+            border: 1px solid #000000; /* Borda da tabela */
+            color: #000000;
+        
+        }
+
+        main section th {
+            background-color: #b6def8;
+            font-style: italic;
+            color: black
+        }
+
+
+        td p {
+            text-align: left;
+            margin-right: 50px;
+        } 
+
+        main section tbody{
+            background-color: rgb(174, 194, 221);
+        }
+
+        /* Adiciona bordas às células da tabela na seção principal */
+        main th, main td {
+            border: 1px solid #000000; /* Borda das células */
+        
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <table>
+            <tr>
+                <td><img src="./imghtml/aluguel de carro logo.png" alt=""></td>
+                <td><p style="font-size: 35px;">Bem-vindo ao Site de Alugueis de Carro! </p>
+                    <p style="font-size: 25px;">Agende os nosso serviços e Contate nossos Atendentes!<br>
+                     Automóveis com Qualidade e com alto desempenho  de acordo com a sua atividade desejada.</p></td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <!-- Seção principal com tabela de aluguéis disponíveis -->
+        <section class="clean">
+            <h2>Aluguéis Disponíveis</h2>
+            <table class="tabela-servicos">
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Imagem</th>
+                        <th>Preço por Dia</th>
+                        <th>Características</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Linha para Ford Mustang -->
+                    <tr>
+                        <td>Ford Mustang</td>
+                        <td>
+                            <a href="https://example.com/ford-mustang">
+                                <img src="./imghtml/mustang.png" alt="Ford Mustang">
+                            </a>
+                        </td>
+                        <td>R$ 350,00</td>
+                        <td>Automático, Ar-Condicionado</td>
+                    </tr>
+                    <!-- Linha para Chevrolet Camaro -->
+                    <tr>
+                        <td>Chevrolet Camaro</td>
+                        <td>
+                            <a href="https://example.com/chevrolet-camaro">
+                                <img src="./imghtml/camaro.png" alt="Chevrolet Camaro">
+                            </a>
+                        </td>
+                        <td>R$ 400,00</td>
+                        <td>Automático, Conversível</td>
+                    </tr>
+                    <!-- Linha para Toyota Corolla -->
+                    <tr>
+                        <td>Toyota Corolla</td>
+                        <td>
+                            <a href="https://example.com/toyota-corolla">
+                                <img src="./imghtml/corrola.png" alt="Toyota Corolla">
+                            </a>
+                        </td>
+                        <td>R$ 250,00</td>
+                        <td>Manual, Ar-Condicionado</td>
+                    </tr>
+               
+                   
+                    <!-- Linha para Chevrolet Camaro -->
+                    <tr>
+                        <td>BMW Z4</td>
+                        <td>
+                            <a href="./imghtml/BMW.png">
+                                <img src="./imghtml/BMW.png" alt="BMW">
+                            </a>
+                        </td>
+                        <td>R$ 400,00</td>
+                        <td>Automático, Conversível</td>
+                    </tr>
+               
+                    <td>MERCEDES</td>
+                    <td>
+                        <a href="./imghtml/MERCEDES.png">
+                            <img src="./imghtml/MERCEDES.png" alt="MERCEDES">
+                        </a>
+                    </td>
+                    <td>R$ 400,00</td>
+                    <td>Automático</td>
+                </tr>
+               
+               
+                </tbody>
+            </table>
+        </section>
+        <section class="clean">
+            <h2 class="clean-h2">Sigas as Instruções de como realizar o alugamento do veículo conosco</h2>
+           
+            <ol>
+                <li><strong>Escolhe o veículo</strong> 
+                    navegue pela nossa frota e selecione o veiculo que melhor atende ás suas necessidades. </li>
+                
+                    <li><strong>Verifique a disponibilidade: </strong>      Confirme a disponibilidade do veículo para as datas desejadas.</li>
+                
+                    <li><strong>Faça a reserva:</strong>   
+                        Preencha o formulário de reserva com seus dados e aguarde a confirmação.</li>
+                
+                    <li><strong>Retire o veículo:</strong> Dirija-se ao nosso ponto de retirada, assine o contrato e leve o veiculo.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center;">2024 Meu WebSite</p>
+        <table class="footer-table">
+            <tr>
+                <th>Contato</th>
+                <th>Rede Social</th>
+                <th>Contratos e Politica de Privacidade</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="">Email@gmail.com</a>
+                </td>
+                <td>
+                    <a href="">Facebook</a>
+                </td>
+                
+                <td><a href="">Contratos</a></td>
+
+
+            </tr>
+            <tr>
+                <td><a href="">+55 61 54754758</a></td>
+                <td><a href="">@AlugueSeuCarro </a></td>
+                <td><a href="">Política de Privacidade</a></td>
+            </tr>
+            <tr>
+                <td><a href="">Formulário de Contato</a></td>
+                <td><a href="">Twitter</a></td>
+                <td><a href="">Termos de Contrato</a></td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+</html>
