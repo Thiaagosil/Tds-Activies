@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+
+.container {
+    background-image: url(../imgcss/Dark\ Futuristic\ Wave\ Lines\ Desktop\ Background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid rgba(255, 255, 255, 0.8);
+    border-radius: 150px;
+    height: auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+.main-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+ 
+    margin-top: -50px;
+}
+
+.sub-title {
+    color: lightgrey;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;   
+}
+
+ .table-calc {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 500px;
+ }
+
+ .button-som {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+ }
+
+  #result {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+label {
+    color: rgb(211, 211, 211);
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
