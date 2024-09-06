@@ -1,0 +1,141 @@
+body {
+ background-color: rgb(8 47 73);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    
+}
+.container {
+    background-color: black;
+    background-image: url(/img/walwallpapeprs.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid rgba(255, 255, 255, 0.8);
+    border-radius: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+
+}
+
+.main-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    transition: color 0.3s ease;
+
+
+}
+
+ .sub-title {
+        font-family: Arial, sans-serif;
+        font-size: 35px;
+        font-weight: bold;
+        margin-top: 100px;
+        color: #ffffff;
+        transition: color 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .table-calc {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-items: space-between;
+        padding-left: 500px;
+        margin-right: 500px;
+     }
+ 
+ input {
+    width: 150px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+ }
+
+select {
+    padding: 10px;
+    margin: 5px;
+}
+
+ .button-mult {
+ 
+    width: 100px;
+
+    background-color: rgb(130, 134, 131);
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.button-mult:hover {
+    
+    color: rgb(255, 255, 255);
+}
+
+   .select_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(8, 78, 8);
+    transition: color 0.3s ease;
+ }
+
+ .select_options:hover {
+    
+    color: rgb(119, 92, 92);
+}
+
+
+ .result {
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    transition: color 0.3s ease;
+    
+}
+ 
+
+
+    .container-calc {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;    
+    margin-top: 150px;
+    margin: auto;
+    }
