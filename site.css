@@ -1,0 +1,182 @@
+/* Gerais */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: red;
+    font-size: 14px;
+}
+
+/* Barra de nav */
+
+header, .navbar {
+    background-color: black;
+
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 125px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+
+}
+
+#navbar-links a {
+    color: #fff;
+    cursor: pointer;
+}
+
+#navbar-links a:hover {
+    color: rgb(255, 0, 0);
+}
+
+
+#navbar-links a .active {
+    color: rgb(255, 0, 0);
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    }
+
+/* slider */
+
+
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+     height: 90vh;
+
+}
+
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.main-btn a {
+    color: black;
+    text-decoration: none;
+    transition:.5s;
+}
+
+.main-btn {
+    text-transform: uppercase;
+    font-family: bold;
+
+    margin-right: 840px;
+    
+
+    padding: 10px 20px;
+    transition: .5s;
+    text-decoration: none;
+    color: white;
+    width: 182px;
+    height: 36px;
+    border-radius: 0px 20px;
+    border: 1px solid #BF5943;
+    background: #E27B41;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #E27B41;
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+}
+
+
+.carousel-indicators {
+    text-decoration: none;
+}
+
+.carousel-indicators .active {
+    background-color: #f96565;
+
+  }
+
+  #imgbleach{ filter: brightness(
+    70%
+    ); }
+    
+  #imgjujutsu{ filter: brightness(
+    50%
+    ); }
+    
+  #imgkimetsu{ filter: brightness(
+    50%
+    ); }
+    
+  #imgonepiece{ filter: brightness(
+    70%
+    ); }
+
+
+/* about, slider */
+  
+    
+#mainSlider  #japanese-title{
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #E27B41;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition:.5s;
+}
+    
+#mainSlider  #title-anime{
+   
+    font-family: Mohave;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition:.5s;
+}
+
+    
+#mainSlider  #type-streaming{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
